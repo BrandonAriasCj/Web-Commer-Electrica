@@ -7,7 +7,7 @@ export default function Cart() {
 
   if (items.length === 0) {
     return (
-      <div>
+      <div style = {{minHeight: 80}}>
         <h1>Carrito</h1>
         <p>Tu carrito está vacío.</p>
         <Link to="/products">Ir a productos</Link>

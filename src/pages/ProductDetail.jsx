@@ -5,6 +5,8 @@ import useCartStore from '../store/cart'
 export default function ProductDetail() {
   const { id } = useParams()
   const product = getProductById(id)
+  const name_imagen = product.image
+  const ruta = "/" + name_imagen
   const add = useCartStore((s) => s.addItem)
 
   if (!product) return <div>Producto no encontrado.</div>
@@ -12,7 +14,7 @@ export default function ProductDetail() {
   return (
     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24 }}>
       <div style={{ borderRadius: 12, overflow: 'hidden', background: 'white', border: '1px solid #e5e7eb' }}>
-        <img src={product.image} alt={product.title} style={{ width: '100%', display: 'block' }} />
+        <img src={ruta} alt={product.title} style={{ width: '100%' }} />
       </div>
       <div>
         <h1 style={{ marginTop: 0 }}>{product.title}</h1>
