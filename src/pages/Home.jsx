@@ -10,7 +10,7 @@ export default function Home() {
       <section className="elevate" style={{ background: 'linear-gradient(135deg, #adcdffff, #ffffff)', border: '1px solid #e5e7eb', borderRadius: 16, padding: 28, display: 'flex', gap: 28, alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap' }}>
         <div style={{ maxWidth: 560 }}>
           <h1 style={{ margin: 0, fontSize: 36, lineHeight: 1.15 }}>Electrónica de confianza, al mejor precio</h1>
-          <p style={{ color: 'var(--muted)', marginTop: 8 }}>Encuentra audio, periféricos, monitores y más con envío rápido.</p>
+          <p style={{ color: 'var(--muted)', marginTop: 8 }}>Encuentra dispositivos para instalaciones electricas y más</p>
           <div style={{ display: 'flex-column', gap: 12, marginTop: 20 }}>
             <Link to="/products" style={{ marginRight: 10 }} ><button>Ver productos</button></Link>
             <a href="#ofertas" style={{ fontWeight: 600 }}>Ver ofertas</a>
