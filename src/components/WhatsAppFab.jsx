@@ -1,5 +1,5 @@
-const phone = '6012345678' // Reemplaza con tu número con código de país
-const message = encodeURIComponent('¡Hola! Me interesa un producto de la tienda.')
+const phone = '51957028595' // Reemplaza con tu número con código de país
+const message = encodeURIComponent('¡Hola! Me interesa un producto de la tienda. Vengo de la pagina web.')
 
 export default function WhatsAppFab() {
   return (

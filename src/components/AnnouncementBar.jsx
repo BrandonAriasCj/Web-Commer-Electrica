@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 const messages = [
   '🚚 Envío gratis en pedidos superiores a $99',
-  '🎧 Ofertas en audio esta semana',
+  '🛎️ Ofertas en interruptores esta semana',
   '🕒 Soporte 24/7 por WhatsApp',
 ]
 
